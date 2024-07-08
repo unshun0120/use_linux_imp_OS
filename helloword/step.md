@@ -11,6 +11,6 @@ step :
 3.輸入 touch loader.s (create file called "loader.s")  
 4.輸入 chmod 777 loader.s (更改檔案權限之後可寫code進去)  
 4.將程式寫入loader.s (該程式目的是把數字0xCAFEBABE寫入eax暫存器內)  
-loader.s該程式以放到github helloword資料夾底下  
+(loader.s該程式已放到github helloword資料夾底下)  
 5.到終端機輸入 nasm -f elf32 loader.s (把loader.s編譯成 32bits ELF object檔)，編譯完後就會看到同loader.s資料夾下有另外一個較loader.o的檔案  
 ![image](https://github.com/unshun0120/use_linux_imp_OS/assets/79517348/10cc8ca1-717d-415c-84dd-07103bd34cec)
