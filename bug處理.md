@@ -1,5 +1,5 @@
 # 1.無法開啟終端機(can not open terminal)
-=解決方法 :    
+** 解決方法 :    
           1. 按下 Ctrl+Alt+(F1~F6)，按下其中一個會進入終端  
           2. 輸入 sudo localectl set-locale LANG=en_US.UTF-8  
           3. 若輸入2.的指令出現"...not in sudoers file..."，輸入 su (因為目前使用者沒有權限)，再輸入2.指令即  
