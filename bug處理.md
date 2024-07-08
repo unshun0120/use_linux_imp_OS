@@ -1,4 +1,5 @@
 # 1.無法開啟終端機(can not open terminal)
+<span> Some red text </span>
 解決方法 :    
           1. 按下 Ctrl+Alt+(F1~F6)，按下其中一個會進入終端  
           2. 輸入 sudo localectl set-locale LANG=en_US.UTF-8  
