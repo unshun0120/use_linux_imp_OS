@@ -1,12 +1,11 @@
 # 1.install packages
 step :    
-1.打開終端機   
-2.輸入 su  
-3.輸入指令 sudo apt-get install build-essential nasm genisoimage bochs bochs-sdl 來安裝所需packages  
+1.打開終端機，輸入 su    
+2.輸入指令 sudo apt-get install build-essential nasm genisoimage bochs bochs-sdl 來安裝所需packages  
 
 # 2.create loader.s file
 step :    
-1.打開終端機     
+1.打開終端機，輸入su  
 2.輸入 cd /home/unshun (切到要放loader.s該檔案的位置)    
 3.輸入 touch loader.s (create file called "loader.s")  
 4.輸入 chmod 777 loader.s (更改檔案權限之後可寫code進去)  
