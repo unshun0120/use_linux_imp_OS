@@ -1,7 +1,7 @@
 # 1.install packages
 step :    
 1.打開終端機   
-2.輸入 sudo  
+2.輸入 su
 3.輸入指令 sudo apt-get install build-essential nasm genisoimage bochs bochs-sdl 來安裝所需packages  
 
 # 2.create loader.s file
