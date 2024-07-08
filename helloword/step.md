@@ -5,7 +5,7 @@ step :
 
 # 2.create loader.s file
 step :    
-1.打開終端機，輸入su  
+1.打開終端機，輸入 su  
 2.輸入 cd /home/unshun (切到要放loader.s該檔案的位置)    
 3.輸入 touch loader.s (create file called "loader.s")  
 4.輸入 chmod 777 loader.s (更改檔案權限之後可寫code進去)  
