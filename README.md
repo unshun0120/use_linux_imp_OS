@@ -1,3 +1,7 @@
+網站中的第5、6篇開始我就看不太懂了QAQ，所以大概就做到這裡  
+![image](https://github.com/unshun0120/use_linux_imp_OS/assets/79517348/3ea45cbe-2a27-4aa2-a82b-2177c5ca9d08)  
+
+
 # use_linux_imp_OS
 use linux to implement OS  
 該project參考網站  
