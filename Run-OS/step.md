@@ -5,10 +5,10 @@ https://littleosbook.github.io/files/stage2_eltorito
 
 # 2.製作ISO image 
 step :  
-1.打開終端機，輸入 su  
-2.輸入 mkdir -p iso/boot/grub (建立資料夾) -> 輸入 cp stage2_eltorito iso/boot/grub/ (把stage2_eltorito file放到iso/boot/grub底下) -> 輸入cp kernel.elf iso/boot/ (kernel.elf file放到iso/boot底下)  
-3.輸入 cd /home/unshun/iso/boot/grub/ (cd到stage2_eltorito所在資料夾)-> 輸入 touch menu.lst -> 將程式寫入menu.lst內 (此file目的在於告訴GRUB會用到kernel的位置與一些資料)  
-4.輸入 cd /home/unshun (cd到iso資料夾的上一層，不是cd到iso此層) -> 輸入 genisoimage -R -b boot/grub/stage2_eltorito -no-emul-boot -boot-load-size 4 -A os -input-charset utf8 -quiet -boot-info-table -o os.iso iso (該指令用來生成 ISO Image)  
+1. 打開終端機，輸入 su  
+2. 輸入 mkdir -p iso/boot/grub (建立資料夾) -> 輸入 cp stage2_eltorito iso/boot/grub/ (把stage2_eltorito file放到iso/boot/grub底下) -> 輸入cp kernel.elf iso/boot/ (kernel.elf file放到iso/boot底下)  
+3. 輸入 cd /home/unshun/iso/boot/grub/ (cd到stage2_eltorito所在資料夾)-> 輸入 touch menu.lst -> 將程式寫入menu.lst內 (此file目的在於告訴GRUB會用到kernel的位置與一些資料)  
+4. 輸入 cd /home/unshun (cd到iso資料夾的上一層，不是cd到iso此層) -> 輸入 genisoimage -R -b boot/grub/stage2_eltorito -no-emul-boot -boot-load-size 4 -A os -input-charset utf8 -quiet -boot-info-table -o os.iso iso (該指令用來生成 ISO Image)  
 輸入完後會產生下圖該檔案  
 ![image](https://github.com/unshun0120/use_linux_imp_OS/assets/79517348/1c0fb7c7-0e70-4975-874c-093841b43781)  
 
