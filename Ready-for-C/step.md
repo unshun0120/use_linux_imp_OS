@@ -17,7 +17,7 @@ step :
    此錯誤訊息表示Makefile文件中第10行的空白部分要用tab不要用4空格取代  
    下圖是Makefile第10行空白部分用4個空格隔開  
    ![image](https://github.com/unshun0120/use_linux_imp_OS/assets/79517348/df15acf3-8fc4-417f-905d-8d61a8920c6f)  
-   將4個空格刪除並用tab取代會如下圖 :  
+   將4個空格刪除並用一個tab取代會如下圖 :  
    ![image](https://github.com/unshun0120/use_linux_imp_OS/assets/79517348/22717cd3-fcb8-4c1c-8526-ccfdc5918135)    
    其他空白部分以此類推則可以solve此bug ***
  
