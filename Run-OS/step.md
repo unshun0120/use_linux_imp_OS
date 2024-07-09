@@ -8,6 +8,7 @@ https://littleosbook.github.io/files/stage2_eltorito
 step :  
 1.打開終端機，輸入 su  
 2.輸入 mkdir -p iso/boot/grub (建立資料夾)  
-&nbsp; &nbsp; -> 輸入 cp stage2_eltorito iso/boot/grub/ (把stage2_eltorito file放到iso/boot/grub底下) -> cp kernel.elf iso/boot/ (kernel.elf file放到iso/boot底下)
+&nbsp; &nbsp; -> 輸入 cp stage2_eltorito iso/boot/grub/ (把stage2_eltorito file放到iso/boot/grub底下)  
+&nbsp; &nbsp; -> cp kernel.elf iso/boot/ (kernel.elf file放到iso/boot底下)  
 
 
