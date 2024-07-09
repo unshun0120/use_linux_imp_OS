@@ -1,4 +1,5 @@
 # create kmain.c
+create一個kmain function，之後會被loader.s使用  
 step :  
 1. 輸入 touch kmain.c -> chmod 777 kmain.c  
 2. 將程式寫入kmain.c
