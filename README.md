@@ -1,4 +1,4 @@
-網站中的第5、6篇開始我就看不太懂了QAQ，所以大概就做到這裡  
+網站中的第5、6篇開始我就看不太懂了QAQ，所以大概就做到這裡，也不知道自己做了什麼，好像就是碰一下怎麼在linux上做一些基本操作而已  
 ![image](https://github.com/unshun0120/use_linux_imp_OS/assets/79517348/3ea45cbe-2a27-4aa2-a82b-2177c5ca9d08)  
 
 
