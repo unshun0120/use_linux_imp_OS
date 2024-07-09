@@ -10,7 +10,8 @@ step :
 2. 將程式寫入Makefile  
 
 # 3.編譯Makefile
-1. 輸入 make run，編譯若通過則會開啟bochs      
+1. 輸入 make run，編譯若通過則會開啟bochs
+
 *** 若輸入"make run"後出現 "Makefile:10: *** missing separator.  Stop." 錯誤訊息  
    例 : ![image](https://github.com/unshun0120/use_linux_imp_OS/assets/79517348/dec0989a-eddb-483c-a832-8bc6b57c5709)  
    此錯誤訊息表示Makefile文件中第10行的空白部分要用tab不要用4空格取代  
