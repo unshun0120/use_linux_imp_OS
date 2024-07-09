@@ -20,7 +20,7 @@ step :
 3. 跑出視窗後回到終端機輸入c，bochs才會運作把OS載入，按下後如下圖    
 ![image](https://github.com/unshun0120/use_linux_imp_OS/assets/79517348/4dbce631-587b-4b20-934f-aca18cca928c)  
 4. 之後即可關掉bochs(即上圖視窗)，到終端機輸入 cat bochslog.txt (來顯示bochs的log)    
-5. 輸入後終端機會跑出很多東西，從裡面找到經由模擬器的CPU registers產生的RAX=00000000CAFEBABE或EAX=CAFEBABE值，代表成功，如下圖    
+5. 輸入後終端機會跑出很多東西，從裡面找到經由模擬器的CPU registers產生的RAX=00000000CAFEBABE或EAX=CAFEBABE值，代表成功，(即在helloword程式當中把數字存到register之功能)，如下圖    
 ![image](https://github.com/unshun0120/use_linux_imp_OS/assets/79517348/e9878488-6333-439d-b50b-587c1e02fbb8)  
 
 
